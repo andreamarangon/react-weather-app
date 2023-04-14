@@ -33,4 +33,15 @@
     .section__descriptions {
         grid-template-columns: 1fr 1fr;
     }
+
+}
+
+@media screen and (max-width: 480px) {
+    .card>h2 {
+        font-size: 16px
+    }
+    .description__card-icon>small {
+        font-size: 10px
+}
+
 }

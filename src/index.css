@@ -95,3 +95,13 @@
 .temperature>h1 {
     font-size: 60px;
 }
+
+@media screen and (max-width: 480px) {
+    .section__inputs>button {
+        padding: 10px 10px;
+    }
+    .section__inputs>input{
+        width: 80%;
+    }
+
+}
